@@ -1,0 +1,23 @@
+{
+  "name": "module-federation-demo",
+  "version": "1.0.0",
+  "description": "Module Federation demo with React showing component sharing across applications",
+  "private": true,
+  "scripts": {
+    "install": "npm install --prefix host-app && npm install --prefix remote-app",
+    "start": "npm run start:remote && npm run start:host",
+    "start:host": "cd host-app && npm start",
+    "start:remote": "cd remote-app && npm start",
+    "build": "npm run build:remote && npm run build:host",
+    "build:host": "cd host-app && npm run build",
+    "build:remote": "cd remote-app && npm run build"
+  },
+  "keywords": [
+    "module-federation",
+    "webpack5",
+    "react",
+    "micro-frontends"
+  ],
+  "author": "",
+  "license": "MIT"
+}

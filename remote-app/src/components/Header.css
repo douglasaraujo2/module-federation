@@ -1,0 +1,27 @@
+.mf-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  margin-bottom: 30px;
+}
+
+.mf-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mf-header-title {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mf-header-subtitle {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: 400;
+}
